@@ -1,0 +1,29 @@
+{
+  "name": "CookieDomainFix",
+  "description": "It removes *.www.example.org from cookie domain as it is not a good idea to use it like this instead we can use *.example.org for cookie domain",
+  "version": "0.0.1",
+  "theme": false,
+  "require": {
+    "matomo": ">=5.0.0-b1,<6.0.0-b1"
+  },
+  "authors": [
+    {
+      "name": "Matomo",
+      "email": "",
+      "homepage": ""
+    }
+  ],
+  "support": {
+	    "email": "",
+	    "issues": "",
+	    "forum": "",
+	    "irc": "",
+	    "wiki": "",
+	    "source": "",
+	    "docs": "",
+	    "rss": ""
+  },
+  "homepage": "",
+  "license": "GPL v3+",
+  "keywords": []
+}
