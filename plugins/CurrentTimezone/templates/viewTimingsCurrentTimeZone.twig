@@ -1,0 +1,9 @@
+<div id="js-current-time-widget">
+    <hr/>
+    <div class="widgetBody"><b>Current site time: </b><span id="js-current-site-time-widget" data-timezone="{{ timezone }}">{{ currentDate }}</span></div>
+    {% if timezone != serverTimezone %}
+        <hr/>
+        <div class="widgetBody"><b>Local time: </b><span id="js-current-server-time-widget" data-timezone="{{ serverTimezone }}">{{ serverDate }}</span></div>
+    {% endif %}
+    <hr/>
+</div>
